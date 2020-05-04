@@ -13,7 +13,7 @@
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("https://github.com/kylefeffer/web-portfolio/blob/master/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_(Hendrik_Hondius).jpg?raw=true");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("https://github.com/kylefeffer/web-portfolio/blob/master/assets/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_(Hendrik_Hondius).jpg?raw=true");
   height: 95vh;
   min-height: 150px;
   max-height: inherit;
