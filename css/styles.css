@@ -21,6 +21,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+
+}
+
+@keyframes fadeIn{
+  from {opacity: 0.1;}
+  to {opacity: 1.0;}
 }
 
 .hero-image-banner {
@@ -43,16 +51,16 @@
   color: white;
 }
 
+.fade {
+  opacity: 1;
+}
 
-
-
-
-
-
-
+.fadeout{
+  opacity: 0;
+}
 
 .collapsible {
-    background-color:#343A40;
+    background-color: #2E8B57;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -72,7 +80,7 @@
 }
 
 .active, .collapsible:hover {
-    background-color: #2E8B57;
+    background-color: #343A40;
 }
 
 .active:after {
