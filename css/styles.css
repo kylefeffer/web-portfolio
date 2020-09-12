@@ -94,14 +94,7 @@
     background-color: white;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+
 
 .fa:hover {
     opacity: 0.7;
@@ -110,17 +103,36 @@
 .fa-facebook {
   background: #3B5998;
   color: white;
+  padding: 15px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  padding: 15px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #0076A8;
   color: white;
+  padding: 15px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
+
 
 
 .button {
@@ -135,6 +147,10 @@
     margin-bottom: 0;
 }
 
+.button:hover {
+    opacity: 0.7;
+}
+
 .button-sm {
     background-color: #bbb;
     border: none;
@@ -145,6 +161,10 @@
     display:inline-block;
     font-size: 10px;
     margin-bottom: 0;
+}
+
+.button-sm:hover {
+    opacity: 0.7;
 }
 
 .center {
