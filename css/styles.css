@@ -133,7 +133,16 @@
   margin: 5px 2px;
 }
 
-
+.fa-github {
+  background: #333;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
 .button {
     background-color: #2E8B57;
