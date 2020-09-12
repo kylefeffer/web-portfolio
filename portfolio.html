@@ -13,6 +13,10 @@
     <script
     src="/lib/collapseable.js"></script> 
 
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css'  rel='stylesheet' />
+
+
 </head>
     
     
@@ -54,7 +58,7 @@
 <div class="container" style="margin-top:30px">
     <div class="row">
         <div class="col-sm-4">
-        <h5>On this page, you can find a few of my pieces from every stop of my geospatial journey. Within the collapsable menus are download links for each exhibit.</h5>
+        <h5 style='padding-top: 48px'>On this page, you can find a few of my pieces from every stop of my geospatial journey. Within the collapsable menus are download links for each exhibit. Not all of these pieces are polished but rather, each exhibit was a learning experience. From my early days of learing ArcMap, to my work in geospatial web development, I hope you enjoy seeing my growth as a geospatial professional.</h5>
 
         </div>
       
@@ -69,6 +73,25 @@
 
 <button type="button" class="collapsible">University of Wisconsin Coursework (2020 - Present)</button>
 <div class="content">
+<br></br>
+
+<div class="center" id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoia3lsZWZlZmZlciIsImEiOiJjamR1cTF1YzMzZ2R5MnFsNzFkOTg3eHliIn0.fmRGG9DK7ixE_XagZtLR3A';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/kylefeffer/ck8p377ah00v51iprla72ih6b', // stylesheet location
+center: [13.5, 52.5], // starting position [lng, lat]
+zoom: 2 // starting zoom
+});
+map.addControl(new mapboxgl.FullscreenControl());
+</script>
+
+    <h4 style="text-align:left;">WWII Spy Thriller Mapbox Style</h4>
+    <h6>Date created - April 2020</h6>
+    <p>In this assignment, I was tasked with creating a Mapbox style that could be used to promote a movie of my choice. I deciced to model my style as a promotion for a WWII spy thriller. In order to achieve this, I evaluated and reviewed dozens of authentic maps from both the Axis and Allied powers dating from 1941-1944. I then tried to recreate those designs and styles as best I could. By analyzing details such as the types of fonts and colors used, distiinctive markings for features, and even textures of the old maps, I attempted to put a modern "splippy map" spin on to this interesting time in histroy.</p>
+    <div class="center" style="margin-bottom: 10px"><a href="https://api.mapbox.com/styles/v1/kylefeffer/ck8p377ah00v51iprla72ih6b.html?fresh=true&title=view&access_token=pk.eyJ1Ijoia3lsZWZlZmZlciIsImEiOiJjamR1cTF1YzMzZ2R5MnFsNzFkOTg3eHliIn0.fmRGG9DK7ixE_XagZtLR3A" target="_blank"> <button class="button"><i class="fa fa-map-marker"></i> View on MapBox</button></a>
+    </div>
 
 <div>  
     <img src="assets/Big%20Ten%20Biking%20Tour.png" style="width:100%">
